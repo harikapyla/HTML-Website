@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+#header{
+    color: black;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    font-size:1.3rem;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+#header a{
+    color: #000;
+}
+#fur{
+    background-color:#e5e7eb;
+    padding-bottom: 175px;
+}
+.content{
+    color: black;
+    padding-top: 180px;
+    padding-left:130px;
+}
+.home{
+    display: flex;
+    font-size:1rem;
+}
+.btn{
+    margin-top: 40px;
+
+}
+#b1, #b2{
+    color: black;
+    background-color:whitesmoke;
+    font-size: 1rem;
+    padding: 12px 30px;
+    border-style: none;
+    border-radius: 3px;
+    margin-left: 7px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+#b1:hover,#b2:hover{
+    color: #fff;
+    background-color: #000;
+}
+#bimg{
+    position: relative;
+    margin-left: 330px;
+    margin-top: 96px;
+}
+#timg{
+   position: absolute;
+   z-index: 1;
+   margin-top: 270px;
+   margin-left: 50px;
+}
+.image{
+    display: flex;
+}
+#demo{
+    color: black;
+    background-color:rgb(232 238 241 / var(--tw-bg-opacity));
+    padding-bottom: 100px;
+}
+#con{
+    justify-content: center;
+    text-align: center;
+    padding-top: 120px;
+}
+#photos{
+    display: flex;
+    margin: 40px,10px;
+}
+#dp1 img,#dp2 img,#dp3 img{
+ margin-top: 40px;
+ margin-left: 56px;
+}
+#features{
+    color: black;
+    background-color: white;
+}
+#feapic{
+    transition: all 1.1s;
+    
+}
+#feapic:hover{
+    transform: scale(1.2);
+
+}
+#matter{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+}
+#pr1,#pr2{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 1rem;
+}
+#pictures{
+    margin: 0px 50px;
+}
+#testimonial{
+    color: black;
+    background-color:lightgray;
+}
+#tcon{
+    justify-content: center;
+    text-align: center;
+    padding-top:120px;
+}
+#bpicr1,#bpicr2,#bpicr3,#bpicr4,#bpicr5{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    text-align: center;
+}
+#testb{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 0px 20px;
+}
+#FAQs{
+    background-color: #fff;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 1.5rem;
+}
+#faqimg{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#minback{
+    background-color:lightgray;
+    padding: 50px 55px;
+    border-radius: 5px;
+}
+#Questions{
+    background-color: #fff;
+    color: #000;
+    margin-left: 30px;
+}
+#bottom{
+    color: #000;
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom:200px;
+}
+#bottom button{
+    color: #fff;
+    background-color: #000;
+    font-size:0.8rem;
+    border-radius: 3px;
+    padding:10px 45px;
+    margin-top: 30px;
+}
+#final{
+    color: #fff;
+    background-color: #000;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 60px;
+}
+#lcon{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+#final button{
+    color: black;
+    background-color: #fff;
+    font-size:0.9rem;
+    border-radius:5px;
+    padding:10px 45px;
+}
+#mid{
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    text-align: center;
+    z-index:1;
+    margin-top:100px;
+}
+#mid button{
+    font-size:0.9rem;
+    border-radius:5px;
+    margin-bottom: 35px;
+}
+@keyframes appear{
+    from{
+        opacity:0;
+        scale:0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+#body img,p,h1,h2,h3,h4,h5,h6{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+}
+#body img{
+    transition: all 1s;
+}
+#body img:hover{
+    transform: scale(1.2);
+}
